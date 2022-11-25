@@ -1,0 +1,51 @@
+.heart {
+  height: 50px;
+  width: 50;
+  background-color: red;
+  margin: 100px;
+  position: relative;
+
+  transform: rotate(45deg);
+}
+
+.left {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: red;
+  top: 85px;
+  left: 93px;
+}
+
+.right {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: absolute;
+
+  background-color: red;
+  top: 85px;
+  left: 123px;
+}
+
+.micky {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  margin: 100px;
+  position: relative;
+
+  transform: rotate(45deg);
+}
+
+.top {
+  height: 50px;
+  width: 100px;
+  background-color: white;
+
+  position: absolute;
+
+  top: 273px;
+  left: 90;
+}

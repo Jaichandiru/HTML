@@ -1,0 +1,47 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.main .top {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.main {
+  width: 100%;
+  height: 700px;
+  background: rgb(130, 130, 130);
+}
+.main .top {
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  position: relative;
+}
+.main .top .font {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 20px;
+}
+.main .top .l1 {
+  padding: 50px;
+}
+.main .top .r1 {
+  position: relative;
+  left: 75%;
+}
+.main .left {
+  height: 600px;
+  width: 50%;
+  border: 2px solid black;
+}/*# sourceMappingURL=style.css.map */

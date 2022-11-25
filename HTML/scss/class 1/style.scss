@@ -1,0 +1,25 @@
+.box {
+  height: 500px;
+  width: 500px;
+  background-color: chartreuse;
+  &:hover {
+    background-color: black;
+    .box2 {
+      background-color: crimson;
+      .box3 {
+        height: 60px;
+      }
+    }
+  }
+
+  .box2 {
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    .box3 {
+      height: 200px;
+      width: 200px;
+      background-color: brown;
+    }
+  }
+}

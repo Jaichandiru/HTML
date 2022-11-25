@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+.box1 {
+  width: 100%;
+  height: 40px;
+  background-color: brown;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+.s1 {
+  height: 20px;
+  background-color: blue;
+}
+.s2 {
+  width: 100px;
+  height: 20px;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+.s3 {
+  width: 100px;
+  height: 20px;
+  background-color: rgb(154, 154, 249);
+  border-radius: 10px;
+}
+.c1 {
+  margin: 5px;
+}

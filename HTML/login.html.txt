@@ -1,0 +1,46 @@
+<html>
+  <head></head>
+  <body>
+    <input type="text" />
+    <input type="password" />
+
+    <textarea rows="3" cols="5"></textarea>
+
+    <select>
+      <option value="--select--">--select--</option>
+      <option>python</option>
+      <option>java</option>
+      <option>C++</option>
+    </select>
+    <progress value="45" max="100"></progress>
+
+    <ol type="I">
+      <li style="color: red">item</li>
+      <li style="background-color: red">item</li>
+      <li style="color: yellow; background-color: red">item</li>
+      <li style="background-color: green; display: inline">item</li>
+      <li style="background-color: green; display: inline">jjjjjj</li>
+    </ol>
+
+    <ul type="square">
+      <li>item</li>
+      <li>item</li>
+      <li>item</li>
+    </ul>
+
+    <br />
+    <audio src="../src/media/a.mp3" controls></audio>
+    <audio controls>
+      <source src="../src/media/a.mp3" />
+    </audio>
+
+    <video src="../src/media/v.mp4" controls></video>
+
+    <video controls>
+      <source src="../src/media/v.mp4" />
+    </video>
+
+    <a href="../index.html" target="_blank">Home Page</a>
+    <h1>Heading</h1>
+  </body>
+</html>

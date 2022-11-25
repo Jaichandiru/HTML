@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.box {
+  height: 100px;
+  width: 300px;
+  background-color: aquamarine;
+  margin: 40px 20px;
+  border-radius: 10px;
+}
+
+.main {
+  height: 400px;
+  width: 700px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 3px solid rgb(81, 0, 255);
+  flex-wrap: wrap;
+}
+.main .c1 {
+  background-color: rgba(0, 255, 255, 0.326);
+  border: 2px solid aqua;
+}
+.main .c2 {
+  background-color: rgba(128, 255, 0, 0.322);
+  border: 2px solid rgb(131, 253, 8);
+}
+.main .c3 {
+  background-color: rgba(220, 20, 60, 0.346);
+  border: 2px solid red;
+}
+.main .c4 {
+  background-color: rgba(222, 184, 135, 0.227);
+  border: 2px solid rgb(255, 145, 0);
+}/*# sourceMappingURL=style.css.map */
